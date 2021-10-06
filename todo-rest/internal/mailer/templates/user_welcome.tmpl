@@ -1,0 +1,28 @@
+{{define "subject"}}Welcome to Todo app!{{end}}
+{{define "plainBody"}}
+Hi,
+
+Your ID is {{.ID}}.
+
+{"token": "{{.activationToken}}"}
+
+Thanks.
+{{end}}
+
+{{define "htmlBody"}}
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+  <p>Hi,</p>
+  <p>Your ID is {{.ID}}.</p>
+  <p>{"token": "{{.activationToken}}"}</p>
+  <p>Thanks.</p>
+</body>
+
+</html>
+{{end}}

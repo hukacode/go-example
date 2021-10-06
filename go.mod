@@ -1,3 +1,5 @@
-module github.com/hukacode/go-example
+module github.com/hukacode/go-sandbox
 
 go 1.16
+
+require golang.org/x/tools v0.1.5 // indirect
